@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link href="./css/main.css" rel="stylesheet" />
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <div id="header">
+      <!-- com breakpoints ou -fluid para fluido -->
+      <div class="container">
+        <!-- tirar bg-light background cinza e add justify-content-between-->
+        <nav
+          class="navbar navbar-expand-lg navbar-light justify-content-between"
+        >
+          <!-- navbar-expand-lg breakpoint para hamburguer -->
+          <!-- <div class="container-fluid"> -->
+          <a class="navbar-brand" href="#">
+            <img
+              src="assets/logo_epsarocket.svg"
+              alt="Logo"
+              class="img-fluid"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Página Inicial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfólio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <!-- ENDHEADER -->
+
+    <!-- SLIDER -->
+    <div id="slider" class="block">
+      <div class="container pt-5">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 align-self-center mb-md-0 mb-4">
+            <h1>Lorem, ipsum dolor sit amet</h1>
+            <h4 class="mb-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </h4>
+            <a
+              href=""
+              class="button btn btn-primary button-primary d-md-inline-block d-block mb-md-0 mb-2 mr-md-2"
+              >Saiba mais</a
+            >
+            <a
+              href=""
+              class="button btn btn-outline-primary button-primary-outline d-md-inline-block d-block"
+              >Contato</a
+            >
+          </div>
+          <div class="col-lg-8 col-md-6 align-self-center text-center">
+            <img src="https://placeholder.pics/svg/200x200" alt="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="sobre" class="block">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 align-self-center text-center order-md-1 order-2">
+            <img src="./assets/ideia.svg" alt="" class="img-fluid">
+          </div>
+          <div class="col-md-6 align-self-center mb-md-0 mb-4 order-md-2 order-1">
+
+            <h2 class="title">Lorem ipsum dolor sit amet consectetur</h2>
+            <h4 class="subtitle">Lorem ipsum dolor sit amet consectetur</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel a, alias delectus quaerat aspernatur amet ullam ut placeat est porro reiciendis dolor ipsam quae consectetur, molestias dolore vitae tenetur dicta.</p>
+            <a href="#" class="btn btn-primary button button-primary">Entre em contato</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" rossorigin="anonymous"></script>
+    <script src= "js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </body>
+</html>
+    <!-- ENDSLIDER -->
